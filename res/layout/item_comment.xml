@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="3dp"
+    android:paddingBottom="5dp"
+    android:orientation="vertical" >
+	<LinearLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:background="@drawable/layout_border"
+    	android:orientation="vertical">
+    	<LinearLayout 
+    	    android:layout_width="match_parent"
+    	    android:layout_height="50dp"
+    	    android:orientation="horizontal">
+    	    <ImageView 
+        		android:layout_marginLeft="20dp"
+        		android:layout_weight="2"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent"
+        		android:id="@+id/iv_icon"
+        		android:src="@drawable/sup5"/>
+    	    <TextView
+            	android:id="@+id/tv_NAME"
+            	android:layout_width="match_parent"
+            	android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:layout_marginLeft="15dp"
+        		android:gravity="center_vertical"
+            	android:text="@string/commentMan"
+            	android:textColor="@color/tieYu"
+            	android:textSize="18dp" />
+    	</LinearLayout>
+    
+    <TextView
+        android:id="@+id/tv_TIME"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:drawableLeft="@drawable/time_icon"
+        android:gravity="center_vertical"
+        android:text="@string/commentTime" />
+
+      <TextView 
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:paddingLeft="5dp"
+        android:maxLines="5"
+        android:fontFamily="楷体"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_hese"
+        android:text="@string/commentContent"
+        android:id="@+id/tv_COMMENTCONTENT"/>
+      </LinearLayout>
+</LinearLayout>

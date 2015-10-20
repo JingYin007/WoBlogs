@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical" >
+        <LinearLayout 
+        	android:layout_width="match_parent"
+        	android:layout_height="46dp"
+        	android:gravity="center"
+        	android:background="@color/top_themeColor"
+        	android:orientation="horizontal">
+        <TextView
+                android:layout_weight="5"
+                android:paddingLeft="3dp"
+                android:drawableLeft="@drawable/top_back"
+                android:id="@+id/tv_back"
+                android:textColor="@color/dark_hese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/top_back"
+                android:gravity="center" />
+            <com.mo.view.MarqueTextView
+                android:layout_weight="3"
+                android:ellipsize="marquee"
+                addStatesFromChildren="true"
+                android:id="@+id/tv_newTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:singleLine="true"
+                android:textSize="18sp"
+                android:text="@string/top_news"
+                android:gravity="center"
+                android:textColor="#008000" />
+            <TextView
+                android:layout_weight="5"
+                android:id="@+id/tv_Comments"
+                android:paddingRight="2dp"
+                android:drawableLeft="@drawable/comment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:gravity="center" />
+    </LinearLayout>
+	<ImageView
+        android:id="@+id/id_iv_tabline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/tabline" />    
+        
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout 
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout 
+        	android:layout_weight="1"
+        	android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_marginLeft="15dp"
+        	android:orientation="horizontal">
+        <TextView 
+            android:drawableLeft="@drawable/time_icon"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_published"
+            android:text="发表时间"/>
+        <TextView 
+            android:layout_weight="6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_id_News"
+            android:visibility="invisible"
+            android:text="ID"/>
+        </LinearLayout>
+        <TextView 
+        	android:layout_marginLeft="15dp"
+            android:drawableLeft="@drawable/voice_icon"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tv_sourceName"
+            android:textColor="@color/qingZi"
+            android:text="新闻来源"/>
+    </LinearLayout>
+    
+    <WebView
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:id="@+id/wv_Content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </WebView>
+    </LinearLayout>
+  
+</LinearLayout>

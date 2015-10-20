@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+    <ImageView 
+        android:layout_weight="1"
+        android:id="@+id/iv_blogger_avatar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginRight="22dp"
+        android:layout_gravity="center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sup4"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="4"
+        android:gravity="center_vertical|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_blogger_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="我是誰"
+            android:textColor="@color/dark_hese"
+            android:textSize="22dp" />
+
+        <com.mo.view.MarqueTextView
+            android:ellipsize="marquee"
+            addStatesFromChildren="true"
+            android:id="@+id/tv_blogger_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="www.mo.sdjffdf.ff.cn"
+            android:textColor="@color/lightBlue"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

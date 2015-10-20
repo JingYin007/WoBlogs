@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="icon" format="reference"></attr>
+    <attr name="color" format="color"></attr>
+    <attr name="text" format="string"></attr>
+     <attr name="text_color" format="color"></attr>
+    <attr name="text_size" format="dimension"></attr>
+
+    <declare-styleable name="ChangeColor">
+        <attr name="icon"></attr>
+        <attr name="color"></attr>
+         <attr name="text_color"></attr>
+        <attr name="text"></attr>
+        <attr name="text_size"></attr>
+    </declare-styleable>
+
+   
+    <attr name="position">
+        <enum name="left_top" value="0" />
+        <enum name="left_bottom" value="1" />
+        <enum name="right_top" value="2" />
+        <enum name="right_bottom" value="3" />
+    </attr>
+    <attr name="radius" format="dimension" />
+
+    <declare-styleable name="ArcMenu">
+        <attr name="position" />
+        <attr name="radius" />
+    </declare-styleable>
+    <declare-styleable name="CustomAudioIcon">
+        <attr name="type">
+            <enum name="start" value="0" />            
+            <enum name="forward" value="1" />
+            <enum name="backward" value="2" />
+            <enum name="exit" value="3" />
+            <enum name="mode" value="4" />
+        </attr>
+        <attr name="color7" format="color"/>
+    </declare-styleable>
+    
+    
+    <declare-styleable name="RefreshView">
+        <attr name="type1" format="enum">
+            <enum name="sun" value="0" />
+        </attr>
+    </declare-styleable>
+    
+    
+    
+    
+    
+</resources>

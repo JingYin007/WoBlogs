@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="miss">Hi, I Miss You !I Miss You !I Miss You !</string>
+    <string name="wel_msg">...你若安好，便是晴天...</string>
+    <string name="app_name">woBlogs</string>
+   
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+    
+    
+    <string name="tab_knowledge">求知</string>
+    <string name="tab_music">音乐</string>
+    <string name="tab_note">笔记</string>
+    <string name="tab_place">定位</string>
+    <string name="tab_set">设置</string>
+    <string name="tab_other">其他</string>
+    <string name="tab_play">娱乐</string>
+
+    <string name="top_news">. 热门新闻</string>
+    <string name="top_blogs">. 推荐博客</string>
+    
+    <string name="hot_news">. 热门新闻</string>
+    <string name="recomment_news">. 推荐新闻</string>
+    <string name="recomment_blogs">. 十天推荐</string>
+    <string name="home_blogs">. 首页博客</string>
+    
+    
+    <string name="top_blogs2">推荐博客</string>
+    <string name="top_back">返回</string>
+    <string name="top_back2">. 返回</string>
+    <string name="top_blogs_col">收藏</string>
+    <string name="top_blogs_col2">博客收藏</string>
+    <string name="editNote">编辑+</string>
+    <string name="content">内容</string>
+    <string name="title">. 标题</string>
+    <string name="save">保存</string>
+    <string name="please_title">请输入标题</string>
+    <string name="please_content">请编辑内容</string>
+    
+    <string name="scan">浏览</string>
+    <string name="comment">评论</string>
+    <string name="favor">点赞</string>
+    <string name="fromMsg">来源</string>
+    <string name="publishTime">发表时间</string>
+    <string name="updateTime">更新时间</string>
+    <string name="detailContent">详细内容</string>
+    
+   	<string name="commentMan">评论人</string>
+   	<string name="commentTime">评论时间</string>
+   	<string name="commentContent">评论内容</string>
+   	
+   	<string name="blogger">博主</string>
+   	<string name="home_url">主页</string>
+   	<string name="share">分享</string>
+   	<string name="delete">删除</string>
+    <string name="collection">收藏</string>
+   	
+    <string name="news">新闻</string>
+    <string name="blogs">博客</string>
+    <string name="set">其他</string>
+    
+    <string name="p2refresh_head_load_more">加载更多</string>
+    <string name="p2refresh_end_load_more">更    多</string>
+    <string name="p2refresh_end_click_load_more">点击加载</string>
+    <string name="p2refresh_release_refresh">松开刷新</string>
+    <string name="p2refresh_pull_to_refresh">下拉刷新</string>
+    <string name="p2refresh_doing_head_refresh">正在刷新</string>
+    <string name="p2refresh_doing_end_refresh">加载中</string>
+    <string name="p2refresh_refresh_lasttime">最近更新</string>
+    
+    <string name="app_label">Compass</string>
+    <string name="getting_location">Getting location...</string>
+    <string name="cannot_get_location">Cannot get your location</string>
+    <string name="location_north">%s N</string>
+    <string name="location_south">%s S</string>
+    <string name="location_east">%s E</string>
+    <string name="location_west">%s W</string>
+</resources>

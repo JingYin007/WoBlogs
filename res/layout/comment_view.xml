@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:background="@color/top_themeColor"
+        android:orientation="horizontal">
+        <TextView
+                android:layout_weight="3"
+                android:paddingLeft="3dp"
+                android:drawableLeft="@drawable/top_back"
+                android:id="@+id/tv_back"
+                android:textColor="@color/dark_hese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/top_back"
+                android:gravity="center" />
+            <TextView
+                android:layout_weight="2"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:id="@+id/tv_newsCommentTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/top_news"
+                android:gravity="center"
+                android:textColor="#008000" />
+            <TextView
+                android:layout_weight="3"
+                android:id="@+id/tv_mark"
+                android:paddingRight="3dp"
+                android:drawableLeft="@drawable/top_nothing2"
+                android:drawableRight="@drawable/top_nothing"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#000000"
+                android:gravity="center" />
+
+    </LinearLayout>
+	<ImageView
+        android:id="@+id/id_iv_tabline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/tabline" />
+    <ListView
+        android:id="@+id/lv_newsComment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_weight="1" >
+    </ListView>
+
+<include layout="@layout/foot"/>
+</LinearLayout>
