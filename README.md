@@ -16,7 +16,7 @@
 ![ABC](https://github.com/JingYin007/ImgCache/blob/master/img_WoBlogs/searchview.jpg) 
 
 #####3.下拉刷新加载博主的博文信息
-![ABC](https://github.com/JingYin007/ImgCache/blob/master/img_WoBlogs/refreshLoading2.png) 
+![ABC](https://github.com/JingYin007/ImgCache/blob/master/img_WoBlogs/refreshLoading2.jpg) 
 
 #####4.方向传感器是的使用
 ![ABC](https://github.com/JingYin007/ImgCache/blob/master/img_WoBlogs/compass.png) 
